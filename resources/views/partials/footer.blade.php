@@ -10,9 +10,9 @@
 
         
         <div class="col-lg-3 col-md-6 footer-links">
-          <h4>Useful Links</h4>
+          <h4 class="title">Useful Links</h4>
           <ul>
-            <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
+            <li><i class="fa fa-angle-right"></i> <a href="#" >Home</a></li>
             <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
             <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
             <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
@@ -27,7 +27,7 @@
         </div>
 
         <div class="col-lg-3 col-md-6 footer-contact">
-          <h4>Contact Us</h4>
+          <h4 class="title">Contact Us</h4>
           <p>
             {!! $settings['footer_address'] ?? '' !!}<br>
             <strong>Phone:</strong> {{ $settings['contact_phone'] }}<br>
@@ -50,10 +50,8 @@
 
   <div class="container">
     <div class="copyright">
-      &copy; Copyright <strong>{{ env('APP_NAME', 'TheEvent') }}</strong>. All Rights Reserved
+      &copy;Event-Conference-2024
     </div>
-    <div class="credits">
-      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-    </div>
+ 
   </div>
 </footer><!-- #footer -->

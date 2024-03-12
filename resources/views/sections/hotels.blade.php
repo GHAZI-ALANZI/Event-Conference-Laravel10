@@ -2,7 +2,7 @@
 
   <div class="container">
     <div class="section-header">
-      <h2>Hotels</h2>
+      <h2 class="title">Hotels</h2>
       <p>Here are some nearby hotels</p>
     </div>
 

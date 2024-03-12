@@ -1,11 +1,13 @@
+
+
 <header id="header"@if(Route::current()->getName() != 'home') class="header-fixed"@endif>
   <div class="container">
 
     <div id="logo" class="pull-left">
       <h1>
-        <a href="{{ route('home') }}#intro">
+        <a href="{{ route('home') }}" >
           <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-          {{ env('APP_NAME', 'The Event') }}
+         <span class="title">{{ env('APP_NAME', 'The Event') }}</span>
         </a>
       </h1>
     </div>

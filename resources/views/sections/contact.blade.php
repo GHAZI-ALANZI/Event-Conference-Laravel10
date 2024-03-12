@@ -3,7 +3,7 @@
   <div class="container">
 
     <div class="section-header">
-      <h2>Contact Us</h2>
+      <h2 class="title">Contact Us</h2>
       <p>Nihil officia ut sint molestiae tenetur.</p>
     </div>
 

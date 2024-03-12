@@ -3,7 +3,7 @@
   <div class="container">
 
     <div class="section-header">
-      <h2>F.A.Q </h2>
+      <h2 class="title">F.A.Q </h2>
     </div>
 
     <div class="row justify-content-center">

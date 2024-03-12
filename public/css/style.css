@@ -8,6 +8,15 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+
+.title {
+  font-family: "Rubik Scribble", system-ui;
+  font-weight: 900;
+  font-style: normal;
+  
+}
 
 body {
   background: #fff;
@@ -23,7 +32,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #f8234a;
+  color: #ffffff;
   outline: none;
   text-decoration: none;
 }
@@ -108,6 +117,7 @@ h6 {
   padding-bottom: 20px;
 }
 
+
 .section-header::before {
   content: '';
   position: absolute;
@@ -157,7 +167,12 @@ h6 {
 
 #header.header-scrolled,
 #header.header-fixed {
-  background: rgba(6, 12, 34, 0.98);
+background: rgba(0, 0, 0, 0.64);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.8px);
+  -webkit-backdrop-filter: blur(7.8px);
+  border: 1px solid rgba(0, 0, 0, 0.88);
   height: 70px;
   padding: 15px 0;
   transition: all 0.5s;
@@ -257,6 +272,7 @@ h6 {
 #nav-menu-container {
   float: right;
   margin: 0;
+  
 }
 
 /* Nav Meu Styling */

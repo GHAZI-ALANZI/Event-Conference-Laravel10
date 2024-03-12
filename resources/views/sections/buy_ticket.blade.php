@@ -2,7 +2,7 @@
   <div class="container">
 
     <div class="section-header">
-      <h2>Buy Tickets</h2>
+      <h2 class="title">Buy Tickets</h2>
       <p>Velit consequatur consequatur inventore iste fugit unde omnis eum aut.</p>
     </div>
 

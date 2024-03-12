@@ -1,7 +1,7 @@
 <section id="subscribe">
   <div class="container wow fadeInUp">
     <div class="section-header">
-      <h2>Newsletter</h2>
+      <h2 class="title">Newsletter</h2>
       <p>Rerum numquam illum recusandae quia mollitia consequatur.</p>
     </div>
 
