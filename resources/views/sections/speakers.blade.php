@@ -9,7 +9,12 @@
       @foreach($speakers as $speaker)
         <div class="col-lg-4 col-md-6">
           <div class="speaker">
-            <img src="{{ $speaker->photo->getUrl() }}" alt="{{ $speaker->name }}" class="img-fluid">
+           @if($speaker->photo)
+    <img src="{{ $speaker->photo->getUrl() }}" alt="{{ $speaker->name }}" class="img-fluid">
+@else
+    <!-- Placeholder image or alternative content when photo is not available -->
+    <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="{{ $speaker->name }}" class="img-fluid">
+@endif
             <div class="details">
               <h3><a href="{{ route('speaker', $speaker->id) }}">{{ $speaker->name }}</a></h3>
               <p>{{ $speaker->description }}</p>
